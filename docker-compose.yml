@@ -1,0 +1,10 @@
+version: '2'
+services:
+  vscode:
+    image: jr-app-libreofficewriter
+    environment:
+      - DISPLAY_WIDTH=1280
+      - DISPLAY_HEIGHT=720
+      - KEEP_APP_RUNNING=1
+    ports:
+      - 8001:5800

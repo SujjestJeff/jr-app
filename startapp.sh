@@ -2,4 +2,4 @@
 cd /app 
 USER=appuser 
 HOME="/app"
-exec APPLICATION TO START
+exec /usr/bin/libreoffice --writer
